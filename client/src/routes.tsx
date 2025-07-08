@@ -1,7 +1,7 @@
 import { Route } from "wouter";
-import PaginaLogin from "@pages/login";
-import PaginaCadastro from "@pages/cadastro";
-import PaginaHome from "@pages/home";
+import PaginaLogin from "./pages/login";
+import PaginaCadastro from "./pages/cadastro";
+import PaginaHome from "./pages/Home";
 import HomeRedirect from "./pages/index";
 
 export function AppRoutes() {
